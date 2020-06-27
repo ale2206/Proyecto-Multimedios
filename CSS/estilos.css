@@ -9,45 +9,71 @@ body {
 }
 
 header {
-    display: flex;
+    display: block;
     align-items: center;  
     background-color: #2BBAC0;    
 }
 
+header svg{
+    display: block;
+}
+
 .header--container {
-   display: block;
+   display: flex;
+   float: left;
 }
 
 .container__logo {
     padding-top: 2%;
     padding-left: 2%;
     padding-bottom: 2%;
-    width: 30%;
+    width: 260px;
     height: auto;            
 }
 
+.nav__title{
+    margin-top: 10%;
+    margin-left: 1%;
+    font-size: 250%;
+}
+
 .nav--header {
-    margin: auto;
     text-align: center;  
     background: #2BBAC0;
-    padding: 10px 0;        
+    margin-left: 30%;  
   }
 
-  .nav__list {
+.nav__list{
     list-style: none;
     display: flex;
+    align-items: center;
+    margin-left: 550px;
+    padding-top: 50px;
+}
+
+.nav__item{
+    padding-right: 30px;
+    margin-bottom: 100px;
+}
+
+.nav__buscador{
+    width: 270px;
+    height: auto;
+}
+
+.nav__boton{
+    text-decoration: none;
+    background: #fff;
+    padding: 4px;
+    border-radius: 2px;
+    color: black;
+}
+
+ i{
+      font-size: 35px;
+      color: black;
   }
+
   
-  .nav__item {  
-    display: inline-block;
-    padding-right: 5px;
-    padding-left: 5px;        
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    color: #000;         
-  }
-  
-  .nav__title{
-      padding-right: 70%;
-  }
+
 
