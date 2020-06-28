@@ -59,8 +59,13 @@ header {
     color: black;
 }
 
- i{
+ .nav__login i{
       font-size: 35px;
       color: black;
   }
+
+  .nav__carrito i{
+    font-size: 35px;
+    color: black;
+}
 
