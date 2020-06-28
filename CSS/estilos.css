@@ -8,7 +8,7 @@ body {
     font-size: 14px;    
 }
 
-header {
+.header {
     display: flex;
     align-items: center;  
     background-color: #2BBAC0;    
@@ -16,7 +16,7 @@ header {
 
 .header--container{
     display: flex;
-    width: 50%;
+    width: 50%; 
     height: auto;
 }
 
@@ -92,4 +92,89 @@ i{
     text-decoration: none;
     font-size: 16px;
     color: black;
+}
+
+.nav__link :hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    align-items: center;  
+    background-color: #333333; 
+    margin-top: 3%;
+    color: white;
+}
+
+.footer--container{
+    display: flex;
+}
+
+.footer__logo{
+    width: 200px;
+    height: 120px;
+    padding: 5px;
+}
+
+.footer__list{
+    list-style: none;
+    margin-left: 5%;
+}
+
+.footer__title{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.footer__item{
+    padding: 5px;
+}
+
+.footer__item i{
+    font-size: 20px;
+    color: white;
+    padding-right: 10px;
+}
+
+.footer .nav__list{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.footer__instagram i{
+    font-size: 40px;
+}
+
+.footer__facebook i{
+    font-size: 40px;
+}
+
+.footer__twitter i{
+    font-size: 40px;
+}
+
+.footer--pago{
+    display: block;
+    margin-left: 100px;
+}
+
+.footer__pago{
+    width: 310px;
+    height: 40px;
+    margin-top: 10px;
+} 
+
+.footer__titleDerechos{
+    margin-top: 100px;
 }
