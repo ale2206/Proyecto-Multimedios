@@ -60,9 +60,17 @@ body {
     color: black;
 }
 
+.nav__boton:hover{
+    background: gray;
+}
+
 i{
     font-size: 35px;
     color: black;
+}
+
+i:hover{
+    color: white;
 }
 
 .header__raya{
@@ -86,6 +94,10 @@ i{
 
 .nav--menu .nav__item{
     padding-right: 50px;
+}
+
+.nav__link:hover{
+    color: white;
 }
 
 .nav__link{
@@ -156,12 +168,24 @@ i{
     font-size: 40px;
 }
 
+.footer__instagram i:hover{
+    color: black;
+}
+
 .footer__facebook i{
     font-size: 40px;
 }
 
+.footer__facebook i:hover{
+    color: black;
+}
+
 .footer__twitter i{
     font-size: 40px;
+}
+
+.footer__twitter i:hover{
+    color: black;
 }
 
 .footer--pago{
