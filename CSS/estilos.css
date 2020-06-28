@@ -9,51 +9,41 @@ body {
 }
 
 header {
-    display: block;
+    display: flex;
     align-items: center;  
     background-color: #2BBAC0;    
 }
 
-header svg{
-    display: block;
+.header--container{
+    display: flex;
+    width: 50%;
+    height: auto;
 }
 
-.header--container {
-   display: flex;
-   float: left;
-}
-
-.container__logo {
-    padding-top: 2%;
-    padding-left: 2%;
-    padding-bottom: 2%;
-    width: 260px;
-    height: auto;            
+.container__logo{
+    width: 350px;
+    height: auto;
+    padding: 10px;
 }
 
 .nav__title{
-    margin-top: 10%;
-    margin-left: 1%;
-    font-size: 250%;
+    margin-top: 100px;
 }
 
-.nav--header {
-    text-align: center;  
-    background: #2BBAC0;
-    margin-left: 30%;  
-  }
+.nav--header{
+    width: 50%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
 
 .nav__list{
     list-style: none;
     display: flex;
     align-items: center;
-    margin-left: 550px;
-    padding-top: 50px;
 }
 
 .nav__item{
-    padding-right: 30px;
-    margin-bottom: 100px;
+    padding: 10px;
 }
 
 .nav__buscador{
@@ -73,7 +63,4 @@ header svg{
       font-size: 35px;
       color: black;
   }
-
-  
-
 
