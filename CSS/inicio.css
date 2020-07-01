@@ -125,9 +125,9 @@ i:hover{
 }
 
 .section--article{
-    background: gray;
+    background: #E0E0E0;
     width: 250px;
-    height: 330px;
+    height: 340px;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid;
@@ -156,17 +156,18 @@ i:hover{
     text-align: right;
 }
 
-.article__boton{
-    background: white;
-    text-decoration: none;
-    padding: 2px;
-    border-radius: 2px;
-    margin-left: 145px;
-    color: black;
+.section--article i{
+    font-size: 30px;
+    color: red;
 }
 
-.article__boton:hover{
-    background: gray;
+.article__boton{
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+.section--article i:hover{
+    color: white;
 }
 
 .footer{
