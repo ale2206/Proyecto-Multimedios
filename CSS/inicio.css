@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;    
+}
+
+.header {
+    display: flex;
+    align-items: center;  
+    background-color: #2BBAC0;    
+}
+
+.header--container{
+    display: flex;
+    width: 50%; 
+    height: auto;
+}
+
+.container__logo{
+    width: 250px;
+    height: auto;
+    padding: 10px;
+}
+
+.nav__title{
+    margin-top: 70px;
+}
+
+.nav--header{
+    width: 50%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+
+.nav__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav__item{
+    padding: 5px;
+}
+
+.nav__buscador{
+    width: 270px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.nav__boton{
+    text-decoration: none;
+    background: #fff;
+    padding: 4px;
+    border-radius: 2px;
+    color: black;
+}
+
+.nav__boton:hover{
+    background: gray;
+}
+
+i{
+    font-size: 35px;
+    color: black;
+}
+
+i:hover{
+    color: white;
+}
+
+.header__raya{
+    background-color: black;
+    width: 98%;
+    height: 6px;
+    border-radius: 5px;
+    margin-left: 1%;
+    margin-top: 5px;    
+    color: #fff;
+}
+
+.nav--menu{
+    background-color: #2BBAC0;
+    margin-top: 5px;
+}
+
+.nav--menu .nav__list{
+    margin-left: 22%;
+}
+
+.nav--menu .nav__item{
+    padding-right: 50px;
+}
+
+.nav__link:hover{
+    color: white;
+}
+
+.nav__link{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.nav__link :hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+.section{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.section__title{
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.section--article{
+    background: gray;
+    width: 250px;
+    height: 330px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.article__img{
+    padding: 10px;
+    width: 180px;
+    height: auto;
+}
+
+.article__nombre{
+    font-size: 20px;
+    padding: 3px;
+}
+
+.article__text{
+    font-size: 15px;
+    padding: 3px;
+}
+
+.article__textRight{
+    font-size: 15px;
+    padding: 3px;
+    text-align: right;
+}
+
+.article__boton{
+    background: white;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 2px;
+    margin-left: 145px;
+    color: black;
+}
+
+.article__boton:hover{
+    background: gray;
+}
+
+.footer{
+    display: flex;
+    align-items: center;  
+    background-color: #333333; 
+    margin-top: 3%;
+    color: white;
+}
+
+.footer--container{
+    display: flex;
+}
+
+.footer__logo{
+    width: 200px;
+    height: 120px;
+    padding: 5px;
+}
+
+.footer__list{
+    list-style: none;
+    margin-left: 5%;
+}
+
+.footer__title{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.footer__item{
+    padding: 5px;
+}
+
+.footer__item i{
+    font-size: 20px;
+    color: white;
+    padding-right: 10px;
+}
+
+.footer .nav__list{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.footer__instagram i{
+    font-size: 40px;
+}
+
+.footer__instagram i:hover{
+    color: black;
+}
+
+.footer__facebook i{
+    font-size: 40px;
+}
+
+.footer__facebook i:hover{
+    color: black;
+}
+
+.footer__twitter i{
+    font-size: 40px;
+}
+
+.footer__twitter i:hover{
+    color: black;
+}
+
+.footer--pago{
+    display: block;
+    margin-left: 215px;
+}
+
+.footer__pago{
+    width: 310px;
+    height: 40px;
+    margin-top: 10px;
+} 
+
+.footer__titleDerechos{
+    margin-top: 100px;
+}
