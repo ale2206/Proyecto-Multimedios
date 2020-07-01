@@ -113,8 +113,8 @@ i:hover{
 }
 /*Header*/
 
-/*PaginaInicio*/
-.section{
+/*PaginaArticulosInicio*/
+.sectionArticulos{
     width: 90%;
     margin-left: 5%;
     margin-top: 3%;
@@ -122,12 +122,12 @@ i:hover{
     grid-template-columns: repeat(4, auto);
 }
 
-.section__title{
+.sectionArticulos__title{
     margin-left: 90px;
     margin-top: 40px;
 }
 
-.section--article{
+.sectionArticulos--articleArticulos{
     background: #E0E0E0;
     width: 250px;
     height: 340px;
@@ -137,46 +137,135 @@ i:hover{
     border-radius: 5px;
 }
 
-.article__img{
+.articleArticulos__img{
     padding: 10px;
     width: 180px;
     height: auto;
 }
 
-.article__nombre{
+.articleArticulos__nombre{
     font-size: 20px;
     padding: 3px;
 }
 
-.article__text{
+.articleArticulos__text{
     font-size: 15px;
     padding: 3px;
 }
 
-.article__textRight{
+.articleArticulos__textRight{
     font-size: 15px;
     padding: 3px;
     text-align: right;
 }
 
-.section--article i{
+.sectionArticulos--articleArticulos i{
     font-size: 30px;
     color: red;
 }
 
-.article__boton{
+.sectionArticulos--articleArticulos i:hover{
+    color: white;
+}
+
+.articleArticulos__boton{
+    text-decoration: none;
+    margin-left: 200px;
+}
+/*PaginaArticulosInicio*/
+
+/*PaginaArticulos Compu, Celu, Audio, Perifericos*/
+.sectionCCAP{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 1%;
+    display: flex;
+}
+
+.sectionCCAP__title{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.sectionCCAP--divCategorias{
+    background: gray;
+    width: 20%;
+    height: 600px;
+    border: 2px solid;
+}
+
+.divCategorias--articleCategorias{
+    width: 20%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.articleCategorias__Categoria{
+    background: transparent;
+    width: 240px;
+    margin: 3px;
+    padding: 2px;
+    border: 1px solid;
+}
+
+.sectionCCAP--divCCAP{
+    width: 77%;
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.divCCAP--articleCCAP{
+    background: #E0E0E0;
+    width: 250px;
+    height: 340px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px groove;
+    border-radius: 5px;
+}
+
+.articleCCAP__img{
+    padding: 10px;
+    width: 180px;
+    height: auto;
+}
+
+.articleCCAP__nombre{
+    font-size: 20px;
+    padding: 3px;
+}
+
+.articleCCAP__text{
+    font-size: 15px;
+    padding: 3px;
+}
+
+.articleCCAP__textRight{
+    font-size: 15px;
+    padding: 3px;
+    text-align: right;
+}
+
+.divCCAP--articleCCAP i{
+    font-size: 30px;
+    color: red;
+}
+
+.divCCAP--articleCCAP i:hover{
+    color: white;
+}
+
+.articleCCAP__boton{
     text-decoration: none;
     margin-left: 200px;
 }
 
-.section--article i:hover{
-    color: white;
-}
-/*PaginaInicio*/
-
-/*PaginaArticulos*/
-
-/*PaginaArticulos*/
+/*PaginaArticulos Compu, Celu, Audio, perifericos*/
 
 /*Footer*/
 .footer{
