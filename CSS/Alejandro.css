@@ -8,6 +8,7 @@ body {
     font-size: 14px;    
 }
 
+/*Header*/
 .header {
     display: flex;
     align-items: center;  
@@ -110,7 +111,9 @@ i:hover{
     color: gray;
     text-decoration: underline;
 }
+/*Header*/
 
+/*PaginaInicio*/
 .section{
     width: 90%;
     margin-left: 5%;
@@ -169,7 +172,13 @@ i:hover{
 .section--article i:hover{
     color: white;
 }
+/*PaginaInicio*/
 
+/*PaginaArticulos*/
+
+/*PaginaArticulos*/
+
+/*Footer*/
 .footer{
     display: flex;
     align-items: center;  
@@ -251,3 +260,4 @@ i:hover{
 .footer__titleDerechos{
     margin-top: 100px;
 }
+/*Footer*/
