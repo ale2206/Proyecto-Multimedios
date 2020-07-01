@@ -143,6 +143,10 @@ i:hover{
     height: auto;
 }
 
+.articleArticulos__img:hover{
+    -webkit-transform: scale(1.10, 1.10);
+}
+
 .articleArticulos__nombre{
     font-size: 20px;
     padding: 3px;
@@ -204,6 +208,7 @@ i:hover{
 
 .articleCategorias__Categoria{
     background: transparent;
+    text-decoration: none;
     width: 240px;
     margin-top: 1px;
     margin-bottom: 1px;
@@ -211,6 +216,7 @@ i:hover{
     margin-right: 2px;
     padding: 2px;
     border-bottom: 1px solid;
+    color: black;
 }
 
 .sectionCCAP--divCCAP{
@@ -236,6 +242,10 @@ i:hover{
     padding: 10px;
     width: 180px;
     height: auto;
+}
+
+.articleCCAP__img:hover{
+    -webkit-transform: scale(1.10, 1.10);
 }
 
 .articleCCAP__nombre{
