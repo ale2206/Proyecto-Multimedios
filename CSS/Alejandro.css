@@ -190,7 +190,7 @@ i:hover{
 
 .sectionCCAP--divCategorias{
     background: #E0E0E0;
-    width: 20%;
+    width: 250px;
     height: 300px;
     border: 2px groove;
 }
@@ -208,7 +208,7 @@ i:hover{
     text-decoration: none;
     width: 150px;
     margin-top: 10px;
-    margin-left: 37%;
+    margin-left: 40px;
     padding: 2px;
     border: 1px solid;
     color: black;
