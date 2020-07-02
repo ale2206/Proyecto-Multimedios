@@ -189,34 +189,38 @@ i:hover{
 
 .sectionCCAP__title{
     margin-left: 90px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .sectionCCAP--divCategorias{
     background: gray;
     width: 20%;
-    height: 600px;
-    border: 2px solid;
+    height: 300px;
+    border: 2px groove;
 }
 
 .divCategorias--articleCategorias{
     width: 20%;
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
 }
 
 .articleCategorias__Categoria{
-    background: transparent;
+    text-align: center;
+    background: rgb(54, 107, 221);
     text-decoration: none;
-    width: 240px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 5px;
-    margin-right: 2px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 37%;
     padding: 2px;
-    border-bottom: 1px solid;
+    border: 1px solid;
     color: black;
+    border-radius: 3px;
+}
+
+.divCategorias--articleCategorias .categoriaActiva{
+    background: white;
 }
 
 .sectionCCAP--divCCAP{
