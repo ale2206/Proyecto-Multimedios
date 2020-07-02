@@ -143,10 +143,6 @@ i:hover{
     height: auto;
 }
 
-.articleArticulos__img:hover{
-    -webkit-transform: scale(1.10, 1.10);
-}
-
 .articleArticulos__nombre{
     font-size: 20px;
     padding: 3px;
@@ -246,10 +242,6 @@ i:hover{
     padding: 10px;
     width: 180px;
     height: auto;
-}
-
-.articleCCAP__img:hover{
-    -webkit-transform: scale(1.10, 1.10);
 }
 
 .articleCCAP__nombre{
