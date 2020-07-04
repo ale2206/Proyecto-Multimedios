@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LabsTech-Registrar</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/Oscar.css">
 </head>
 <body>
     <header class="header">
         <div class="header--container">
-            <img class="container__logo" src="/Imagenes/Logo.JPG" alt="Logo">      
+            <img class="container__logo" src="Imagenes/Logo.JPG" alt="Logo">      
             <h1 class="nav__title">LabsTech</h1>   
         </div>
         <nav class="nav nav--header">
@@ -33,6 +33,56 @@
             <li class="nav__item"><a class="nav__link" href="Acerca.html">Acerca de</a></li>
         </ul>
     </nav>
+
+    <section class="section">
+        <div class="section__formulario">
+            <form>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre">
+
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" id="apellidos">
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" placeholder="example@mail.com">
+
+                <label for="telefono">Telefono: </label>
+                <input type="tel" id="telefono" placeholder="0000-0000">
+
+                <label for="cedula">Cedula: </label>
+                <input type="text" id="cedula" placeholder="00-0000-0000">
+
+                <label for="direccion">Direccion exacta: </label>
+                <textarea name="direccion" for="direccion" id="direccion" placeholder="Direccion de su lugar de residencia" maxlength="300"></textarea>
+
+                <label for="contrasenia">Contraseña: </label>
+                <input type="password" id="contrasenia">
+
+                <label for="confirmacion">Confirmar contraseña: </label>
+                <input type="password" id="confirmacion">
+
+                <button>Registrarse</button>
+            </form>
+            
+        </div>
+
+        <div class="div--Lateral">
+            <h3 class="nav--title">Cuenta</h3>
+            <article class="lateral--navigation">
+                <a href="#" class="nav--itemsLateral">Acceder a mi cuenta</a>
+                <a href="#" class="nav--itemsLateral">Carrito de compras</a>
+                <a href="#" class="nav--itemsLateral">Laptops</a>
+                <a href="#" class="nav--itemsLateral">PC Gaming</a>
+                <a href="#" class="nav--itemsLateral">Partes y Perifericos</a>
+                <a href="#" class="nav--itemsLateral">Samsung</a>
+                <a href="#" class="nav--itemsLateral">Huawei</a>
+                <a href="#" class="nav--itemsLateral">Pantallas</a>
+                <a href="#" class="nav--itemsLateral">Parlantes</a>
+                <a href="#" class="nav--itemsLateral">Chromecast</a>
+            </article>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="footer--container">
             <img class="footer__logo" src="Imagenes/Logo.JPG" alt="Logo">

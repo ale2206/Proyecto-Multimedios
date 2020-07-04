@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LabsTech-Pago</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/Oscar.css">
 </head>
 <body>
     <header class="header">
         <div class="header--container">
-            <img class="container__logo" src="/Imagenes/Logo.JPG" alt="Logo">      
+            <img class="container__logo" src="Imagenes/Logo.JPG" alt="Logo">      
             <h1 class="nav__title">LabsTech</h1>   
         </div>
         <nav class="nav nav--header">
@@ -33,6 +33,81 @@
             <li class="nav__item"><a class="nav__link" href="Acerca.html">Acerca de</a></li>
         </ul>
     </nav>
+
+    <section class="section--factura">
+        <div class="form--factura">
+            <h3 class="factura--title">Detalle de factura</h3>
+            <form>
+                <label for="nombre">Nombre completo: </label>
+                <input type="text" id="nombre">
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" placeholder="example@mail.com">
+
+                <label for="cedula">Cédula: </label>
+                <input type="text" id="cedula" placeholder="00-0000-0000">
+
+                <label for="telefono">Teléfono: </label>
+                <input type="tel" id="telefono" placeholder="0000-0000">
+
+                <label for="pais">País: </label>
+                <input type="text" id="pais">
+
+                <label for="provincia">Provincia: </label>
+                <input type="text" id="provincia">
+
+                <label for="canton">Cantón: </label>
+                <input type="text" id="canton">
+
+                <label for="distrito">Distrito: </label>
+                <input type="text" id="distrito">
+
+                <label for="direccion">Dirección exacta: </label>
+                <textarea name="direccion" for="direccion" id="direccion" placeholder="Direccion de su lugar de residencia" maxlength="300"></textarea>
+
+                <label for="confirmacion"> He leído y acepto la Política de Privacidad</label>
+                <input type="checkbox" id="confirmacion" name="confirmacion">               
+            </form>
+        </div>
+    </section>
+
+    <section class="section--entrega">
+        <div class="form--entrega">
+            <h3 class="metodos--title">Metodo de Entrega</h3>
+            <form>
+                <label for="tipoEntrega">Seleccione un tipo de entrega: </label>
+                <select id="tipoEntrega" name="tipoEntrega">
+                    <option value="presencial">Presencial</option>
+                    <option value="encomienda">Enconmienda</option>
+                    <option value="express">Express</option>
+                </select>
+            </form>
+
+            <h3 class="metodos--title">Método de Pago</h3>
+            <form>
+                <label for="tipoPago">Seleccione un método de pago: </label>
+                <select id="tipoPago" name="tipoPago">
+                    <option value="presencial">Efectivo</option>
+                    <option value="encomienda">Tarjeta de Crédito</option>
+                    <option value="express">Tarjeta de Débito</option>
+                </select>
+
+                <label for="numero">Número de Tarjeta: </label>
+                <input type="text" id="numero">
+
+                <label for="validez">Fecha de Validez: </label>
+                <input type="datetime" id="validez">
+
+                <label for="cvc">CVC: </label>
+                <input type="password" id="cvc">
+
+                <button class="boton--ayuda">?</button>
+
+                <button class="boton--pago">Efectuar Pago</button>
+            </form>         
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="footer--container">
             <img class="footer__logo" src="Imagenes/Logo.JPG" alt="Logo">

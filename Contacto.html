@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LabsTech-Contacto</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/Oscar.css">
 </head>
 <body>
     <header class="header">
         <div class="header--container">
-            <img class="container__logo" src="/Imagenes/Logo.JPG" alt="Logo">      
+            <img class="container__logo" src="Imagenes/Logo.JPG" alt="Logo">      
             <h1 class="nav__title">LabsTech</h1>   
         </div>
         <nav class="nav nav--header">
@@ -33,6 +33,31 @@
             <li class="nav__item"><a class="nav__link" href="Acerca.html">Acerca de</a></li>
         </ul>
     </nav>
+
+    <section class="section--contact">
+        <div class="contact--form">
+            <form>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre">
+
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" id="apellidos">
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" placeholder="example@mail.com">
+
+                <label for="comentario">Comentario: </label>
+                <textarea name="comentario" for="comentario" id="comentario" placeholder="Escriba aqui su comentario" maxlength="1000"></textarea>
+
+                <button>Enviar</button>
+            </form>
+        </div>
+
+        <div class="contact--image">
+            <img class="image" src="Imagenes/El-nuevo-contendiente-de-AMD-para-el-mercado-de-estaciones-de-trabajo-y-PCs-de-alta-performance.png">
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="footer--container">
             <img class="footer__logo" src="Imagenes/Logo.JPG" alt="Logo">
