@@ -122,39 +122,76 @@ i:hover{
 
 .car__descriptions1 {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25% 30% 25% 20%;
     list-style: none;
     text-align: center;
     font-size: 20px;
     font-style: italic;
     font-weight: bold;
-    padding: 30px;    
+    border-bottom: 3px solid; 
+}
+
+.car__item1 {
+    height: 50px;
+    border-right: 3px solid;
+}
+
+.car__item2 {
+    height: 250px;
+    border-right: 3px solid;
 }
 
 .car__descriptions2 {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25% 30% 25% 20%;
     list-style: none;
     text-align: center;
 }
 
 .car__img {
+    padding-top: 15px;
     height: auto;
-    width: 300px;
+    width: 200px;
 }
 
-.car__uploadIcon {
-    width: 30px;
-    height: auto;
+.car__nameProduct {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 60px;
 }
 
-.car__deleteIcon {
-    width: 30px;
-    height: auto;
+.car__colorProduct {
+    font-size: 18px;
+    padding-top: 20px;    
 }
 
+.car__modelProduct {
+    font-size: 18px;
+}
 
+.car__quantity {
+    margin-top: 60px;
+}
 
+.car__input {
+    width: auto;
+    height: 30px;
+    font-size: 18px;
+}
+
+.car__quantity .car__updateIcon i:hover {
+    color: #2BBAC0;
+}
+
+.car__quantity .car__deleteIcon i:hover {
+    color: red;
+}
+
+.car__price {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 65px;
+}
 
 .footer{
     display: flex;
