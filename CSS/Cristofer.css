@@ -111,9 +111,7 @@ i:hover{
     text-decoration: underline;
 }
 
-
-
-
+/******************************************************CARRITO COMPRA*********************************************************/
 .car--article {
     background-color: #E0E0E0;
     display: block;
@@ -217,6 +215,7 @@ i:hover{
     margin-left: 1330px;
 }
 
+/*******************************************************lOGIN**************************************************************/
 .login--article {
     background-color: #333333;
     margin-top: 50px;
@@ -284,6 +283,26 @@ i:hover{
     color: blue;
     text-decoration: underline;
 }
+
+/**********************************************articulo especifico********************************************************/
+
+.product--container {
+    background-color: red;
+    display: flex;
+}
+
+.prduct--article {
+    background-color: #E0E0E0;
+    width: 250px;
+    height: 270px;
+    margin-top: 180px;
+}
+
+.pruduct__text{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
 
 .footer{
     display: flex;
