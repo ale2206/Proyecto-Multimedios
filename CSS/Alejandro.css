@@ -215,8 +215,12 @@ i:hover{
     border-radius: 3px;
 }
 
+.articleCategorias__Categoria:hover{
+    color: white;
+}
+
 .divCategorias--articleCategorias .categoriaActiva{
-    background: white;
+    background: gray;
 }
 
 .sectionCCAP--divCCAP{
