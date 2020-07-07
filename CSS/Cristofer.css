@@ -217,6 +217,74 @@ i:hover{
     margin-left: 1330px;
 }
 
+.login--article {
+    background-color: #333333;
+    margin-top: 50px;
+    height: 225px;
+}
+
+.login__list {
+    display: grid;
+    grid-template-columns: 20% 20%;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    font-size: 25px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.login__item1 {
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.login__item2 {
+    color: white;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.login__userName {
+    width: 300px;
+    height: 20px;
+}
+
+.login__password {
+    width: 300px;
+    height: 20px;
+}
+
+
+.login__startSesion {
+    background-color: white;
+    margin-left: 700px;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.login__startSesion:hover {
+    background-color: grey;
+    color: white;
+}
+
+.login__singUp {
+    display: flex;
+    padding-top: 25px;
+    margin-left: 750px;
+    color: white;
+    text-decoration: none;
+}
+
+.login__singUp:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
 .footer{
     display: flex;
     align-items: center;  
