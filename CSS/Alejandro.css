@@ -504,7 +504,7 @@ margin-bottom: 2px;
 
     /*Responsive Inicio*/
 .sectionArticulos{
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
 }
     /*Responsive Inicio*/
 
@@ -513,13 +513,13 @@ margin-bottom: 2px;
     display: block;
 }
 .sectionCCAP--divCategorias{
-    margin-left: 30%;
+    margin-left: 15px;
     width: 250px;
     margin-bottom: 20px;
 }
 .sectionCCAP--divCCAP{
     grid-template-columns: repeat(1 , auto);
-    margin-left: 27%;
+    margin-left: 15px;
 }
     /*Responsive CCAP*/
 
