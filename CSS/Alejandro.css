@@ -277,7 +277,76 @@ i:hover{
 /*PaginaArticulos Compu, Celu, Audio, perifericos*/
 
 /*AboutUs*/
-    
+.sectionAbout{
+    width: 90%;
+    margin-left: 5%;
+    margin: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.sectionAbout--pageOptions{
+    background: #E0E0E0;
+    width: 250px;
+    height: 340px;
+    margin-left: 100px;
+    margin-top: 120px;
+    padding: 10px;
+    border: 2px groove;
+}
+
+.pageOptions__list{
+    list-style: none;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+}
+
+.pageOptions__item{
+    text-decoration: none;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    border-top: 2px solid;
+}
+
+.pageOptions__link{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+.pageOptions__link:hover{
+    color: white;
+}
+
+.sectionAbout--about{
+    background-color: rgb(194, 188, 188);
+    margin-top: 40px;
+    padding: 15px;
+    margin-left: 200px;
+    border: 2px groove;
+}
+
+.about__title{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.about__text{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.about__list{
+    list-style: none;
+}
+
+.about__item .about__text{
+margin-bottom: 2px;
+}
+
 /*AboutUs*/
 
 /*Footer*/
