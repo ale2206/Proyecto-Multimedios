@@ -475,6 +475,55 @@ i:hover{
 }
     /*Responsive Header*/
     
+    /*Carrito*/
+    .car__img {
+        padding-top: 15px;
+        height: auto;
+        width: 100px;
+    }
+
+    .car__input {
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    .car__price {
+        font-size: 16px;        
+    }
+
+    .button_pay {        
+        margin-left: 0px;
+    }
+    /*Fin carrito*/
+
+    /*LOGIN*/    
+
+    .login__startSesion {
+        margin-left: 500px;        
+    }
+    .login__singUp {        
+        margin-left: 550px;        
+    }
+    /*LOGIN*/
+
+    /*Artículo Específico*/
+    .product__img {
+        height: auto;
+        width: 350px;
+    }    
+    .prduct--article {        
+        margin-top: 40px;
+    }
+    .product--specifications {        
+        margin-top: 40px;     
+        margin-left: 5px;   
+    }
+    .product__adCar {        
+        margin-left: 20px;       
+    }
+    /*Fin artículo*/
+
     /*Responsive Footer*/
 .footer--container{
     display: grid;
@@ -508,6 +557,55 @@ i:hover{
     display: grid;
     grid-template-columns: repeat(2, auto);
 }
-    /*Responsive Header*/
+    /*Fin Responsive Header*/
+
+/*LOGIN*/
+.login--article {
+    height: 300px;
+}
+.login__list {        
+    display: block;
+}
+
+.login__startSesion {
+    margin-left: 100px;        
+}
+.login__singUp {        
+    margin-left: 150px;        
+}
+/*LOGIN*/
+
+
+/*Artículo Específico*/
+.product__img {
+    height: auto;
+    width: 300px;
+}
+
+.product--container{
+    display: block;
+}
+
+.prduct--article {       
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.product--specifications {
+    margin-left: 30px;
+    margin-top: 20px;  
+    margin-bottom: 200px;     
+}
+
+.product__buy {
+    margin-top: 20px;
+}
+
+.product__adCar {
+    margin-top: 20px;
+    margin-left: 10px; 
+}
+/*Fin artículo*/
+
 }
 /*Responsive Movil*/
