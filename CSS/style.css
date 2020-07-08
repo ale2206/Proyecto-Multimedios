@@ -1,0 +1,1257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;    
+}
+
+/*Header*/
+.header {
+    display: flex;
+    align-items: center;  
+    background-color: #2BBAC0;    
+}
+
+.header--container{
+    display: flex;
+    width: 50%; 
+    height: auto;
+}
+
+.container__logo{
+    width: 250px;
+    height: auto;
+    padding: 10px;
+}
+
+.nav__title{
+    margin-top: 70px;
+}
+
+.nav--header{
+    width: 50%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+
+.nav__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav__item{
+    padding: 5px;
+}
+
+.nav__buscador{
+    width: 270px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.nav__boton{
+    text-decoration: none;
+    background: #fff;
+    padding: 4px;
+    border-radius: 2px;
+    color: black;
+}
+
+.nav__boton:hover{
+    background: gray;
+}
+
+i{
+    font-size: 35px;
+    color: black;
+}
+
+i:hover{
+    color: white;
+}
+
+.header__raya{
+    background-color: black;
+    width: 98%;
+    height: 6px;
+    border-radius: 5px;
+    margin-left: 1%;
+    margin-top: 5px;    
+    color: #fff;
+}
+
+.nav--menu{
+    background-color: #2BBAC0;
+    margin-top: 5px;
+}
+
+.nav--menu .nav__list{
+    margin-left: 22%;
+}
+
+.nav--menu .nav__item{
+    padding-right: 50px;
+}
+
+.nav__link:hover{
+    color: white;
+}
+
+.nav__link{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.nav__link :hover{
+    color: gray;
+    text-decoration: underline;
+}
+/*Header end*/
+
+/*Home*/
+.sectionArticulos{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.sectionArticulos__title{
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.sectionArticulos--articleArticulos{
+    background: #E0E0E0;
+    width: 250px;
+    height: 340px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px groove;
+    border-radius: 5px;
+}
+
+.articleArticulos__img{
+    padding: 10px;
+    width: 180px;
+    height: auto;
+}
+
+.articleArticulos__nombre{
+    font-size: 20px;
+    padding: 3px;
+}
+
+.articleArticulos__text{
+    font-size: 15px;
+    padding: 3px;
+}
+
+.articleArticulos__textRight{
+    font-size: 15px;
+    padding: 3px;
+    text-align: right;
+}
+
+.sectionArticulos--articleArticulos i{
+    font-size: 30px;
+    color: red;
+}
+
+.sectionArticulos--articleArticulos i:hover{
+    color: white;
+}
+
+.articleArticulos__boton{
+    text-decoration: none;
+    margin-left: 200px;
+}
+/*Home end*/
+
+/*CCAP*/
+.sectionCCAP{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 1%;
+    display: flex;
+}
+
+.sectionCCAP__title{
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+.sectionCCAP--divCategorias{
+    background: #E0E0E0;
+    width: 250px;
+    height: 300px;
+    border: 2px groove;
+}
+
+.divCategorias--articleCategorias{
+    width: 20%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+}
+
+.articleCategorias__Categoria{
+    text-align: center;
+    background: #2BBAC0;
+    text-decoration: none;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 2px;
+    border: 1px solid;
+    color: black;
+    border-radius: 3px;
+}
+
+.articleCategorias__Categoria:hover{
+    color: white;
+}
+
+.divCategorias--articleCategorias .categoriaActiva{
+    background: gray;
+}
+
+.sectionCCAP--divCCAP{
+    width: 77%;
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.divCCAP--articleCCAP{
+    background: #E0E0E0;
+    width: 250px;
+    height: 340px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px groove;
+    border-radius: 5px;
+}
+
+.articleCCAP__img{
+    padding: 10px;
+    width: 180px;
+    height: auto;
+}
+
+.articleCCAP__nombre{
+    font-size: 20px;
+    padding: 3px;
+}
+
+.articleCCAP__text{
+    font-size: 15px;
+    padding: 3px;
+}
+
+.articleCCAP__textRight{
+    font-size: 15px;
+    padding: 3px;
+    text-align: right;
+}
+
+.divCCAP--articleCCAP i{
+    font-size: 30px;
+    color: red;
+}
+
+.divCCAP--articleCCAP i:hover{
+    color: white;
+}
+
+.articleCCAP__boton{
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+/*CCAP end*/
+
+/*AboutUs*/
+.sectionAbout{
+    width: 90%;
+    margin-left: 5%;
+    margin: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.sectionAbout--pageOptions{
+    background: #E0E0E0;
+    width: 250px;
+    height: 340px;
+    margin-left: 100px;
+    margin-top: 120px;
+    padding: 10px;
+    border: 2px groove;
+    border-radius: 5px;
+}
+
+.pageOptions__list{
+    list-style: none;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+}
+
+.pageOptions__item{
+    text-decoration: none;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    border-top: 2px solid;
+}
+
+.pageOptions__link{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+.pageOptions__link:hover{
+    color: white;
+}
+
+.sectionAbout--about{
+    background-color: rgb(194, 188, 188);
+    margin-top: 40px;
+    padding: 15px;
+    margin-left: 200px;
+    border: 2px groove;
+    border-radius: 5px;
+}
+
+.about__title{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.about__text{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.about__list{
+    list-style: none;
+}
+
+.about__item .about__text{
+margin-bottom: 2px;
+}
+
+/*AboutUs end*/
+
+/*Shopping car*/
+.car--article {
+    background-color: #E0E0E0;
+    display: block;
+    margin-top: 20px;        
+}
+
+.car__descriptions1 {
+    display: grid;
+    grid-template-columns: 25% 30% 25% 20%;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 3px solid; 
+}
+
+.car__item1 {
+    height: 50px;
+    border-right: 3px solid;
+}
+
+.car__item2 {
+    height: 250px;
+    border-right: 3px solid;
+}
+
+.car__descriptions2 {
+    display: grid;
+    grid-template-columns: 25% 30% 25% 20%;
+    list-style: none;
+    text-align: center;
+}
+
+.car__img {
+    padding-top: 15px;
+    height: auto;
+    width: 200px;
+}
+
+.car__nameProduct {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+.car__colorProduct {
+    font-size: 18px;
+    padding-top: 20px;    
+}
+
+.car__modelProduct {
+    font-size: 18px;
+}
+
+.car__quantity {
+    margin-top: 60px;
+}
+
+.car__input {
+    width: auto;
+    height: 30px;
+    font-size: 18px;
+}
+
+.car__quantity .car__updateIcon i:hover {
+    color: #2BBAC0;
+}
+
+.car__quantity .car__deleteIcon i:hover {
+    color: red;
+}
+
+.car__price {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 65px;
+}
+
+.buttons {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.button_shopping {
+    border: solid 3px;
+    background-color: #333333;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.button_pay {
+    border: solid 3px;
+    background-color: #333333;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 1330px;
+}
+/*Shopping car end*/
+
+/*Login*/
+.login--article {
+    background-color: #333333;
+    margin-top: 50px;
+    height: 225px;
+}
+
+.login__list {
+    display: grid;
+    grid-template-columns: 20% 20%;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    font-size: 25px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.login__item1 {
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.login__item2 {
+    color: white;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.login__userName {
+    width: 300px;
+    height: 20px;
+}
+
+.login__password {
+    width: 300px;
+    height: 20px;
+}
+
+
+.login__startSesion {
+    background-color: white;
+    margin-left: 700px;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.login__startSesion:hover {
+    background-color: grey;
+    color: white;
+}
+
+.login__singUp {
+    display: flex;
+    padding-top: 25px;
+    margin-left: 750px;
+    color: white;
+    text-decoration: none;
+}
+
+.login__singUp:hover {
+    color: blue;
+    text-decoration: underline;
+}
+/*Login end*/
+
+/*Especific Product*/
+.product--container {
+    display: flex;
+}
+
+.prduct--article {
+    background-color: #E0E0E0;
+    width: 250px;
+    height: 270px;
+    margin-top: 180px;
+}
+
+.pruduct__text{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.product--specifications {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 180px;
+    border: solid 2px;
+    width: 200px;
+    height: 150px;
+}
+
+.product__list {
+    list-style: none;
+    font-size: 16px;
+}
+
+.product__item {
+    padding: 5px;
+    display: flex;
+}
+
+.product__lessButton {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #41C5F5;
+    text-decoration: none;
+}
+
+.prduct__quantity {
+    width: 80px;
+    height: 30px;
+    margin-left: 0px;
+}
+
+.product__moreButton {
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #41C5F5;
+    text-decoration: none;
+}
+
+.product__badPrice {
+    text-decoration: line-through;
+    color: grey;
+    padding-top: 50px;
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.product__correctPrice {
+    padding-top: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.product__buy {
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: #333333;
+    padding: 20px 10px;
+    color: white;
+}
+
+.product__buy:hover {
+    background-color: grey;
+    color: black;
+}
+
+.product__adCar {
+    margin-top: 40px;
+    margin-left: 50px;
+    text-decoration: none;
+    background-color: #333333;
+    padding: 20px 50px;
+    color: white;
+}
+
+.product__adCar:hover {
+    background-color: grey;
+    color: black;
+}
+/*Especific Product end*/
+
+/*Register*/
+.section{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+.section__formulario{    
+    height: 660px;
+    width: 39%;
+    background-color: dimgray;
+}
+
+form{
+	width:90%;
+	padding:16px;
+	border-radius:10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:#ccc;
+}
+
+form label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: block;
+    margin-top: 2px;
+}
+
+form input[type="text"],[type="email"],[type="tel"],[type="password"],[type="datetime"]{
+    width:95%;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+    display:list-item;   
+}
+
+form input:focus{
+    border: 1px solid black;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize: vertical;
+    display:block;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background: transparent;
+    color: black;
+    border: 2px solid steelblue;
+    border-radius: 3px;
+    width: 200px;
+    height: 50px;
+    margin-left: 27%; 
+    margin-top: 2%;
+}
+
+button:hover{
+    background-color:darkgrey;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+button:focus{
+    background-color: silver;
+}
+
+.div--Lateral{
+    position: relative;
+    top: 100px;
+    left: 20%;
+    width: 320px;
+    height: 350px;
+    background-color: darkgray;
+}
+.nav--title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.lateral--navigation{
+    margin-top: 10px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    margin-bottom: 10px;
+}
+
+.nav--itemsLateral{
+    text-align: center;
+    text-decoration: none;
+    background-color: lightgray;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    color: black;
+}
+
+.nav--itemsLateral:hover{
+    background-color: dimgrey;
+    color: white;
+}
+
+/*Register end*/
+
+/*Contact*/
+.section--contact{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+.contact--form{
+    margin-top: 6%;
+    margin-bottom: 2%;
+    height: 430px;
+    width: 555px;
+    background-color: dimgray;
+}
+
+.contact--image{
+    position: relative;
+    top: 100px;
+    left: 10%;
+    width: 450px;
+    height: 400px;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+/*Contact end*/
+
+/*Pay*/
+
+.section--factura{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.factura--title{
+    color: white;
+    margin-top: 2px;
+    margin-left: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.form--factura{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 730px;
+    width: 555px;
+    background-color: dimgray;
+}
+
+.section--entrega{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50%;
+}
+
+.metodos--title{
+    color: white;
+    margin-top: 2px;
+    margin-left: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.form--entrega{
+    margin-top: -82%;
+    margin-bottom: 2%;
+    height: 730px;
+    width: 555px;
+    background-color: dimgray;
+}
+
+select{
+    margin-top: 5px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+select:hover{
+    transition-duration: 0.50ms;
+    background-color:dimgray;
+    color: white;
+}
+
+.boton--ayuda{
+    margin-top: 0;
+    margin-left: 0;
+    height: 30px;
+    width: 30px;
+}
+
+.boton--pago{
+    position: relative;
+    top: 100px;
+    background-color: lightgray;
+}
+/*Pay end*/
+
+/*Footer*/
+.footer{
+    display: flex;
+    align-items: center;  
+    background-color: #333333; 
+    margin-top: 3%;
+    color: white;
+}
+
+.footer--container{
+    display: flex;
+}
+
+.footer__logo{
+    width: 200px;
+    height: 120px;
+    padding: 5px;
+}
+
+.footer__list{
+    list-style: none;
+    margin-left: 5%;
+}
+
+.footer__title{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.footer__item{
+    padding: 5px;
+}
+
+.footer__item i{
+    font-size: 20px;
+    color: white;
+    padding-right: 10px;
+}
+
+.footer .nav__list{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.footer__instagram i{
+    font-size: 40px;
+}
+
+.footer__instagram i:hover{
+    color: black;
+}
+
+.footer__facebook i{
+    font-size: 40px;
+}
+
+.footer__facebook i:hover{
+    color: black;
+}
+
+.footer__twitter i{
+    font-size: 40px;
+}
+
+.footer__twitter i:hover{
+    color: black;
+}
+
+.footer--pago{
+    display: block;
+    margin-left: 215px;
+}
+
+.footer__pago{
+    width: 310px;
+    height: 40px;
+    margin-top: 10px;
+} 
+
+.footer__titleDerechos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*Footer end*/
+
+/*Responsive*************************************/
+@media screen and (max-width: 1250px){
+    /*Responsive Header*/
+.nav--header{
+    margin-left: 5%;
+}
+    /*Responsive Header*/
+
+    /*Responsive Inicio*/
+.sectionArticulos{
+    grid-template-columns: repeat(3, auto);
+}
+    /*Responsive Inicio*/
+    
+    /*Responsive CCAP*/
+.sectionCCAP{
+    display: flex;
+}
+.sectionCCAP--divCategorias{
+    width: 350px;
+}
+.sectionCCAP--divCCAP{
+    width: 100%;
+    grid-template-columns: repeat(2, auto);
+}
+    /*Responsive CCAP*/
+
+    /*Carrito*/
+    .car__img {
+        padding-top: 15px;
+        height: auto;
+        width: 100px;
+    }
+
+    .car__input {
+        width: 80px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    .car__price {
+        font-size: 16px;        
+    }
+
+    .button_pay {        
+        margin-left: 0px;
+    }
+    /*Fin carrito*/
+
+    /*LOGIN*/    
+
+    .login__startSesion {
+        margin-left: 500px;        
+    }
+    .login__singUp {        
+        margin-left: 550px;        
+    }
+    /*LOGIN*/
+
+    /*Artículo Específico*/
+    .product__img {
+        height: auto;
+        width: 350px;
+    }    
+    .prduct--article {        
+        margin-top: 40px;
+    }
+    .product--specifications {        
+        margin-top: 40px;     
+        margin-left: 5px;   
+    }
+    .product__adCar {        
+        margin-left: 20px;       
+    }
+    /*Fin artículo*/
+
+    /*Responsive Registro*/
+.section{
+    margin-left: 10%;
+}
+
+.section__formulario{    
+    width: 50%;
+}
+
+.div--Lateral{
+    left: 15%;
+}
+/*Responsive Registro*/
+
+/*Responsive Contacto*/
+.section--contact{
+    margin-left: 5%;
+}
+
+.contact--image{
+    left: 2%;
+}
+/*Responsive Contacto*/
+
+/*Responsive Pago*/
+.section--factura{
+    margin-left: 2%;
+    width: 50%;
+}
+
+.form--factura{
+    width: 90%;
+    background-color: dimgray;
+}
+
+form{
+	width:88%;
+}
+
+.section--entrega{
+    margin-top: -348px;
+    margin-left: 50%;
+    width: 50%;
+}
+
+.form--entrega{
+    width: 90%;
+    background-color: dimgray;
+}
+.boton--pago{
+    position: relative;
+    top: 100px;
+    right: 40px;
+    background-color: lightgray;
+}
+/*Responsive Pago*/
+    
+    /*Responsive Footer*/
+.footer--container{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+}
+.footer--pago{
+    margin-left: 10px;
+}
+    /*Responsive Footer*/
+}
+/*Responsive end****************************************/
+
+/*Responsive Movil*************************************/
+@media screen and (max-width: 930px){
+    /*Responsive Header*/
+.header{
+    display: block;
+}
+.header--container{
+    display: block;
+}
+.nav__title{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.nav__list{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+.nav--menu .nav__list{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+    /*Responsive Header*/
+
+    /*Responsive Inicio*/
+.sectionArticulos{
+    grid-template-columns: repeat(1, auto);
+}
+    /*Responsive Inicio*/
+
+    /*Responsive CCAP*/
+.sectionCCAP{
+    display: block;
+}
+.sectionCCAP--divCategorias{
+    margin-left: 15px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.sectionCCAP--divCCAP{
+    grid-template-columns: repeat(1 , auto);
+    margin-left: 15px;
+}
+    /*Responsive CCAP*/
+
+    /*Responsive Acerca*/
+.sectionAbout{
+    display: block;
+}
+.sectionAbout--about{
+    margin-left: 20px;
+}
+.sectionAbout--pageOptions{
+    margin-left: 20px;
+}
+    /*Responsive Acerca*/
+
+    /*LOGIN*/
+.login--article {
+    height: 300px;
+}
+.login__list {        
+    display: block;
+}
+
+.login__startSesion {
+    margin-left: 100px;        
+}
+.login__singUp {        
+    margin-left: 150px;        
+}
+/*LOGIN*/
+
+
+/*Artículo Específico*/
+.product__img {
+    height: auto;
+    width: 300px;
+}
+
+.product--container{
+    display: block;
+}
+
+.prduct--article {       
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.product--specifications {
+    margin-left: 30px;
+    margin-top: 20px;  
+    margin-bottom: 200px;     
+}
+
+.product__buy {
+    margin-top: 20px;
+}
+
+.product__adCar {
+    margin-top: 20px;
+    margin-left: 10px; 
+}
+/*Fin artículo*/
+
+/*Responsive Registro Movil*/
+.section{
+    display: flex;
+    margin-top: 400px;
+    margin-left: 4%;
+}
+
+.section__formulario{    
+    height: 660px;
+    width: 400px;
+    background-color: dimgray;
+}
+
+
+form{
+width:87%;
+}
+
+.div--Lateral{
+position: absolute;
+top: 500px;
+left: 15%;
+width: 320px;
+height: 350px;
+background-color: darkgray;
+}
+/*Responsive Registro Movil*/
+
+/*Responsive Contacto Movil*/
+.section--contact{
+    margin-left: 5%;
+    width: 90%;
+}
+
+.contact--form{
+    margin-top: 80%;
+    margin-bottom: 2%;
+    height: 430px;
+    width: 80%x;
+}
+
+.contact--image{
+    position: absolute;
+    top: 460px;
+    left: 0%;
+    width: 450px;
+    height: 380px;
+}
+
+button{
+    margin-left: 22%; 
+}  
+/*Responsive Contacto Movil*/
+
+/*Responsive Pago Movil*/
+.section--factura{
+    margin-left: 5%;
+    width: 100%;
+}
+ 
+.section--entrega{
+    margin-top: 400px;
+    margin-left: 5%;
+    width: 100%;
+}
+}
+/*Responsive Movil end**********************************/
