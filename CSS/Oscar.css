@@ -120,12 +120,12 @@ i:hover{
 
 .section__formulario{    
     height: 660px;
-    width: 555px;
+    width: 39%;
     background-color: dimgray;
 }
 
 form{
-	width:500px;
+	width:90%;
 	padding:16px;
 	border-radius:10px;
     margin-top: 10px;
@@ -426,6 +426,63 @@ select:hover{
     margin-left: 5%;
 }
     /*Responsive Header*/
+
+/*Responsive Registro*/
+.section{
+    margin-left: 10%;
+}
+
+.section__formulario{    
+    width: 50%;
+}
+
+.div--Lateral{
+    left: 15%;
+}
+/*Responsive Registro*/
+
+/*Responsive Contacto*/
+.section--contact{
+    margin-left: 5%;
+}
+
+.contact--image{
+    left: 2%;
+}
+/*Responsive Contacto*/
+
+/*Responsive Pago*/
+.section--factura{
+    margin-left: 2%;
+    width: 50%;
+}
+
+.form--factura{
+    width: 90%;
+    background-color: dimgray;
+}
+
+form{
+	width:88%;
+}
+
+.section--entrega{
+    margin-top: -348px;
+    margin-left: 50%;
+    width: 50%;
+}
+
+.form--entrega{
+    width: 90%;
+    background-color: dimgray;
+}
+.boton--pago{
+    position: relative;
+    top: 100px;
+    right: 40px;
+    background-color: lightgray;
+}
+/*Responsive Pago*/
     
     /*Responsive Footer*/
 .footer--container{
@@ -461,5 +518,73 @@ select:hover{
     grid-template-columns: repeat(2, auto);
 }
     /*Responsive Header*/
+
+    /*Responsive Registro Movil*/
+.section{
+        display: flex;
+        margin-top: 400px;
+        margin-left: 4%;
+}
+    
+.section__formulario{    
+        height: 660px;
+        width: 400px;
+        background-color: dimgray;
+}
+
+
+form{
+	width:87%;
+}
+
+.div--Lateral{
+    position: absolute;
+    top: 500px;
+    left: 15%;
+    width: 320px;
+    height: 350px;
+    background-color: darkgray;
+}
+    /*Responsive Registro Movil*/
+
+    /*Responsive Contacto Movil*/
+    .section--contact{
+        margin-left: 5%;
+        width: 90%;
+    }
+    
+    .contact--form{
+        margin-top: 80%;
+        margin-bottom: 2%;
+        height: 430px;
+        width: 80%x;
+    }
+    
+    .contact--image{
+        position: absolute;
+        top: 460px;
+        left: 0%;
+        width: 450px;
+        height: 380px;
+    }
+
+    button{
+        margin-left: 22%; 
+    }  
+    /*Responsive Contacto Movil*/
+
+    /*Responsive Pago Movil*/
+    .section--factura{
+        margin-left: 5%;
+        width: 100%;
+    }
+     
+    .section--entrega{
+        margin-top: 400px;
+        margin-left: 5%;
+        width: 100%;
+    }
+    
+
 }
 /*Responsive Movil*/
