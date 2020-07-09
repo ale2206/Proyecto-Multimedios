@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabsTech-Usuarios</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header--container">
+            <img class="container__logo" src="Imagenes/Logo.JPG" alt="Logo">      
+            <h1 class="nav__title">LabsTech</h1>   
+        </div>
+        <nav class="nav nav--header">
+            <ul class="nav__list">
+                <li class="nav__item"><input class="nav__buscador" type="text"></li>
+                <li class="nav__item"><a class="nav__boton" href="#">Buscar</a></li>
+                <li class="nav__item"><a href="login.html" class="nav__login"><i class="fas fa-user-circle"></i></a></li>
+                <li class="nav__item"><a href="Carrito.html" class="nav__carrito"><i class="fas fa-shopping-cart"></i></a></li>     
+            </ul>
+        </nav>
+    </header>
+    <p class="header__raya">-</p>
+    <nav class="nav nav--menu">
+        <ul class="nav__list">
+            <li class="nav__item"><a class="nav__home" href="Inicio.html"><i class="fas fa-home"></i></a></li>
+            <li class="nav__item"><a class="nav__link" href="Computadoras.html">Computadoras</a></li>
+            <li class="nav__item"><a class="nav__link" href="Celulares.html">Celulares</a></li>
+            <li class="nav__item"><a class="nav__link" href="PartesPerifericos.html">Partes y perifericos</a></li>
+            <li class="nav__item"><a class="nav__link" href="ImagenSonido.html">Imagen - Sonido</a></li>
+            <li class="nav__item"><a class="nav__link" href="Acerca.html">Acerca de</a></li>
+        </ul>
+    </nav>
+
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Nombre</label><label class="validation-error hide" id="nombreValidationError">Este campo es requerido</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div>
+                        <label>Apellido</label>
+                        <input type="text" name="apellido" id="apellido">
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div>
+                        <label>Telefono</label>
+                        <input type="text" name="telefono" id="telefono">
+                    </div>
+                    <div>
+                        <label>cedula</label>
+                        <input type="text" name="cedula" id="cedula">
+                    </div>
+                    <div>
+                        <label>Direccion</label>
+                        <input type="text" name="direccion" id="direccion">
+                    </div>
+                    <div>
+                        <label>Contraseña</label>
+                        <input type="text" name="contrasenia" id="contrasenia">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Registrar">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Email</th>
+                            <th>Telefono</th>
+                            <th>Cedula</th>
+                            <th>Direccion</th>
+                            <th>Contraseña</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>    
+
+    <footer class="footer">
+        <div class="footer--container">
+            <img class="footer__logo" src="Imagenes/Logo.JPG" alt="Logo">
+            <ul class="footer__list">
+                <h3 class="footer__title">Contactenos</h3>
+                <li class="footer__item"><i class="fas fa-hotel"></i>Puntarenas.</li>
+                <li class="footer__item"><i class="fas fa-mobile-alt"></i>0000-0000</li>
+                <li class="footer__item"><i class="fas fa-at"></i>labstech@gmail.com</li>
+                <li class="footer__item"><a href="Contacto.html">Contacto web</a></li>
+            </ul>
+            <ul class="nav__list">
+                <li class="footer__item"><a class="footer__instagram" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                <li class="footer__item"><a class="footer__facebook" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+                <li class="footer__item"><a class="footer__twitter" href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+            </ul>
+            <div class="footer--pago">
+                <h3 class="footer__titlePago">Aceptamos</h3>
+                <img class="footer__pago" src="Imagenes/Captura.JPG" alt="MetodosPago">
+                <h3 class="footer__titleDerechos">LabsTech © 2020</h3>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/crud.js"></script>
+</body>
+</html>

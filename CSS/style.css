@@ -939,6 +939,77 @@ select:hover{
 }
 /*Footer end*/
 
+/*Crud css*/
+body > table{
+    width: 80%;
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background: transparent;
+    color: black;
+    border: 2px solid steelblue;
+    border-radius: 3px;
+    width: 200px;
+    height: 50px;
+    margin-left: 27%; 
+    margin-top: 2%;
+}
+
+input[type=submit]:hover{
+    background-color:darkgrey;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+/*CRUD end*/
+
 /*Responsive*************************************/
 @media screen and (max-width: 1250px){
     /*Responsive Header*/
@@ -1253,5 +1324,31 @@ button{
     margin-left: 5%;
     width: 100%;
 }
+
+/*Responsive crud*/
+input[type=submit]{    
+    margin-left: 5%; 
+    margin-top: 2%;
+}
+
+body > table{
+    width: 100%;
+}
+
+form{
+    width: 100%;
+}
+
+td{
+    display: block;
+}
+
+td, th {   
+    display: flex;     
+    padding: 1px;
+}
+
+
+/*End responsive crud*/
 }
 /*Responsive Movil end**********************************/
