@@ -1,20 +1,20 @@
 $(document).ready(function () {
     
-    $('.divCategorias--articleCategorias .articleCategorias__Categoria[category="all"]').addClass('categoriaActiva');
+    $('.sectionCCAP--divCategorias--articleCategorias .sectionCCAP--divCategorias--articleCategorias__Categoria[category="all"]').addClass('categoriaActiva');
 
-    $('.articleCategorias__Categoria').click(function () { 
+    $('.sectionCCAP--divCategorias--articleCategorias__Categoria').click(function () { 
         var cateArticulo = $(this).attr('category');
         console.log(cateArticulo);
 
-        $('.articleCategorias__Categoria').removeClass('categoriaActiva');
+        $('.sectionCCAP--divCategorias--articleCategorias__Categoria').removeClass('categoriaActiva');
         $(this).addClass('categoriaActiva');
 
-        $('.divCCAP--articleCCAP').hide();
-        $('.divCCAP--articleCCAP[category="'+cateArticulo+'"]').show('');
+        $('.sectionCCAP--divCCAP--articleCCAP').hide();
+        $('.sectionCCAP--divCCAP--articleCCAP[category="'+cateArticulo+'"]').show('');
     });
 
-    $('.articleCategorias__Categoria[category="all"]').click(function () { 
-        $('.divCCAP--articleCCAP').show('');
+    $('.sectionCCAP--divCategorias--articleCategorias__Categoria[category="all"]').click(function () { 
+        $('.sectionCCAP--divCCAP--articleCCAP').show('');
         
     });
 

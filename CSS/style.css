@@ -430,12 +430,12 @@ margin-bottom: 2px;
     margin-top: 65px;
 }
 
-.buttons {
+.button {
     margin-top: 20px;
     margin-left: 30px;
 }
 
-.button_shopping {
+.button__shopping {
     border: solid 3px;
     background-color: #333333;
     color: white;
@@ -444,7 +444,7 @@ margin-bottom: 2px;
     font-size: 20px;
 }
 
-.button_pay {
+.button__pay {
     border: solid 3px;
     background-color: #333333;
     color: white;
@@ -679,7 +679,7 @@ textarea{
     display:block;
 }
 
-button{
+.button__SingUp{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     background: transparent;
@@ -692,13 +692,13 @@ button{
     margin-top: 2%;
 }
 
-button:hover{
+.button__SingUp:hover{
     background-color:darkgrey;
     transition-duration: 0.5s;
     color: white;
 }
 
-button:focus{
+.button__SingUp:focus{
     background-color: silver;
 }
 

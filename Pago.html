@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LabsTech-Pago</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <header class="header">
         <div class="header--container">
-            <img class="container__logo" src="/Imagenes/Logo.JPG" alt="Logo">      
+            <img class="header--container__logo" src="/Imagenes/Logo.JPG" alt="Logo">      
             <h1 class="nav__title">LabsTech</h1>   
         </div>
         <nav class="header nav">
@@ -34,9 +34,9 @@
         </ul>
     </nav>
 
-    <section class="section--factura">
-        <div class="form--factura">
-            <h3 class="factura--title">Detalle de factura</h3>
+    <section class="section section--factura">
+        <div class="section--form">
+            <h3 class="section--title">Detalle de factura</h3>
             <form>
                 <label for="nombre">Nombre completo: </label>
                 <input type="text" id="nombre">
@@ -71,9 +71,9 @@
         </div>
     </section>
 
-    <section class="section--entrega">
-        <div class="form--entrega">
-            <h3 class="metodos--title">Metodo de Entrega</h3>
+    <section class="section section--entrega">
+        <div class="section--entrega">
+            <h3 class="section--title">Metodo de Entrega</h3>
             <form>
                 <label for="tipoEntrega">Seleccione un tipo de entrega: </label>
                 <select id="tipoEntrega" name="tipoEntrega">
@@ -83,7 +83,7 @@
                 </select>
             </form>
 
-            <h3 class="metodos--title">Método de Pago</h3>
+            <h3 class="section--title">Método de Pago</h3>
             <form>
                 <label for="tipoPago">Seleccione un método de pago: </label>
                 <select id="tipoPago" name="tipoPago">
@@ -101,9 +101,9 @@
                 <label for="cvc">CVC: </label>
                 <input type="password" id="cvc">
 
-                <button class="boton--ayuda">?</button>
+                <button class="button--ayuda">?</button>
 
-                <button class="boton--pago">Efectuar Pago</button>
+                <button class="button--pago">Efectuar Pago</button>
             </form>         
         </div>
     </section>
