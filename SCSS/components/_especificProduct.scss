@@ -1,0 +1,101 @@
+/*Especific Product*/
+.product{
+    &--container {
+        display: flex;
+    }
+
+    &--article {
+        background-color: #E0E0E0;
+        width: 250px;
+        height: 270px;
+        margin-top: 180px;
+    }
+
+    &__text{
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    &--specifications {
+        display: flex;
+        margin-left: 50px;
+        margin-top: 180px;
+        border: solid 2px;
+        width: 200px;
+        height: 150px;
+    }
+
+    &__list {
+        list-style: none;
+        font-size: 16px;
+    }
+
+    &__item {
+        padding: 5px;
+        display: flex;
+    }
+
+    &__lessButton {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px 10px;
+        background-color: #41C5F5;
+        text-decoration: none;
+    }
+
+    &__quantity {
+        width: 80px;
+        height: 30px;
+        margin-left: 0px;
+    }
+
+    &__moreButton {
+        font-size: 20px;
+        padding: 5px 10px;
+        background-color: #41C5F5;
+        text-decoration: none;
+    }
+
+    &__badPrice {
+        text-decoration: line-through;
+        color: grey;
+        padding-top: 50px;
+        padding-right: 30px;
+        font-size: 30px;
+    }
+
+    &__correctPrice {
+        padding-top: 50px;
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+    }
+
+    &__buy {
+        margin-top: 40px;
+        text-decoration: none;
+        background-color: #333333;
+        padding: 20px 10px;
+        color: white;
+
+        &:hover {
+            background-color: grey;
+            color: black;
+        }
+    }
+
+    &__adCar {
+        margin-top: 40px;
+        margin-left: 50px;
+        text-decoration: none;
+        background-color: #333333;
+        padding: 20px 50px;
+        color: white;
+
+        &:hover {
+            background-color: grey;
+            color: black;
+        }
+    }
+}
+/*Especific Product end*/

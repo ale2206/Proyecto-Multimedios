@@ -1,0 +1,70 @@
+/*Login*/
+.login{
+    &--article {
+        background-color: #333333;
+        margin-top: 50px;
+        height: 225px;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 20% 20%;
+        text-align: center;
+        align-items: center;
+        list-style: none;
+        font-size: 25px;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    &__item1 {
+        color: white;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+
+    &__item2 {
+        color: white;
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
+    &__userName {
+        width: 300px;
+        height: 20px;
+    }
+
+    &__password {
+        width: 300px;
+        height: 20px;
+    }
+
+    &__startSesion {
+        background-color: white;
+        margin-left: 700px;
+        text-decoration: none;
+        padding: 15px 30px;
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+
+        &:hover {
+            background-color: grey;
+            color: white;
+        }
+    }
+
+    &__singUp {
+        display: flex;
+        padding-top: 25px;
+        margin-left: 750px;
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+    }
+}
+/*Login end*/

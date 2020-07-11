@@ -1,0 +1,305 @@
+/*Home*/
+.section{
+
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25%;
+
+    &__formulario{    
+        height: 660px;
+        width: 39%;
+        background-color: dimgray;
+    }
+
+    &Articulos{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 3%;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    
+        &__title{
+            margin-left: 90px;
+            margin-top: 40px;
+        }
+    
+        &--articleArticulos{
+            background: #E0E0E0;
+            width: 250px;
+            height: 340px;
+            margin: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px groove;
+            border-radius: 5px;
+    
+            &__img{
+                padding: 10px;
+                width: 180px;
+                height: auto;
+            }
+    
+            &__nombre{
+                font-size: 20px;
+                padding: 3px;
+            }
+    
+            &__text{
+                font-size: 15px;
+                padding: 3px;
+            }
+    
+            &__textRight{
+                font-size: 15px;
+                padding: 3px;
+                text-align: right;
+            }
+    
+            i{
+                font-size: 30px;
+                color: red;
+    
+                &:hover{
+                    color: white;
+                }
+            }
+            
+            &__boton{
+                text-decoration: none;
+                margin-left: 200px;
+            }
+        }
+    }
+
+    &CCAP{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 1%;
+        display: flex;
+    
+        &__title{
+            margin-left: 90px;
+            margin-top: 15px;
+        }
+    
+        &--divCategorias{
+            background: #E0E0E0;
+            width: 250px;
+            height: 300px;
+            border: 2px groove;
+    
+            &--articleCategorias{
+                width: 20%;
+                align-items: center;
+                display: grid;
+                grid-template-columns: repeat(1, auto);
+    
+                &__Categoria{
+                    text-align: center;
+                    background: #2BBAC0;
+                    text-decoration: none;
+                    width: 150px;
+                    margin-top: 10px;
+                    margin-left: 40px;
+                    padding: 2px;
+                    border: 1px solid;
+                    color: black;
+                    border-radius: 3px;
+                }
+    
+                &__Categoria:hover{
+                    color: white;
+                }
+    
+                .categoriaActiva{
+                    background: gray;
+                }
+            }
+        }
+    
+        &--divCCAP{
+            width: 77%;
+            margin-left: 3%;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+    
+            &--articleCCAP{
+                background: #E0E0E0;
+                width: 250px;
+                height: 340px;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                border: 1px groove;
+                border-radius: 5px;
+    
+                &__img{
+                    padding: 10px;
+                    width: 180px;
+                    height: auto;
+                }
+    
+                &__nombre{
+                    font-size: 20px;
+                    padding: 3px;
+                }
+    
+                &__text{
+                    font-size: 15px;
+                    padding: 3px;
+                }
+    
+                &__textRight{
+                    font-size: 15px;
+                    padding: 3px;
+                    text-align: right;
+                }
+    
+                i{
+                    font-size: 30px;
+                    color: red;
+    
+                    &:hover{
+                        color: white;
+                    }
+                }
+    
+                &__boton{
+                    text-decoration: none;
+                    margin-left: 200px;
+                }
+            }
+        }
+    }
+
+    &About{
+        width: 90%;
+        margin-left: 5%;
+        margin: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    
+        &--pageOptions{
+            background: #E0E0E0;
+            width: 250px;
+            height: 340px;
+            margin-left: 100px;
+            margin-top: 120px;
+            padding: 10px;
+            border: 2px groove;
+            border-radius: 5px;
+    
+            &__list{
+                list-style: none;
+                border-left: 2px solid;
+                border-bottom: 2px solid;
+                border-right: 2px solid;
+            }
+    
+            &__item{
+                text-decoration: none;
+                padding-top: 6px;
+                padding-bottom: 7px;
+                border-top: 2px solid;
+            }
+    
+            &__link{
+                text-decoration: none;
+                color: black;
+                padding-left: 10px;
+    
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+    
+        &--about{
+            background-color: rgb(194, 188, 188);
+            margin-top: 40px;
+            padding: 15px;
+            margin-left: 200px;
+            border: 2px groove;
+            border-radius: 5px;
+    
+            &__title{
+                font-size: 20px;
+                margin-bottom: 5px;
+            }
+    
+            &__text{
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+    
+            &__list{
+                list-style: none;
+            }
+    
+            &__item .about__text{
+                margin-bottom: 2px;
+            }
+        }
+    }
+    &--contact{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 25%;
+
+        &--form{
+            margin-top: 6%;
+            margin-bottom: 2%;
+            height: 430px;
+            width: 555px;
+            background-color: dimgray;
+        }
+
+        &--image{
+            position: relative;
+            top: 100px;
+            left: 10%;
+            width: 450px;
+            height: 400px;
+        }
+    }
+    &--factura{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+    &--title{
+        color: white;
+        margin-top: 2px;
+        margin-left: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-size: 24px;
+    }
+
+    &--form{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        height: 730px;
+        width: 555px;
+        background-color: dimgray;
+    }
+
+    &--entrega{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 50%;
+    }
+
+    &--entrega{
+        margin-top: -82%;
+        margin-bottom: 2%;
+        height: 730px;
+        width: 555px;
+        background-color: dimgray;
+    }
+}
+
+/*Home end*/

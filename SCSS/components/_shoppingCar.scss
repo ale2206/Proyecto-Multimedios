@@ -1,0 +1,150 @@
+/*Shopping car*/
+.car{
+    &--article {
+        background-color: #E0E0E0;
+        display: block;
+        margin-top: 20px;        
+    }
+
+    &__descriptions1 {
+        display: grid;
+        grid-template-columns: 25% 30% 25% 20%;
+        list-style: none;
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+        border-bottom: 3px solid; 
+    }
+
+    &__item1 {
+        height: 50px;
+        border-right: 3px solid;
+    }
+
+    &__item2 {
+        height: 250px;
+        border-right: 3px solid;
+    }
+
+    &__descriptions2 {
+        display: grid;
+        grid-template-columns: 25% 30% 25% 20%;
+        list-style: none;
+        text-align: center;
+    }
+
+    &__img {
+        padding-top: 15px;
+        height: auto;
+        width: 200px;
+    }
+
+    &__nameProduct {
+        font-size: 22px;
+        font-weight: bold;
+        padding-top: 60px;
+    }
+
+    &__colorProduct {
+        font-size: 18px;
+        padding-top: 20px;    
+    }
+
+    &__modelProduct {
+        font-size: 18px;
+    }
+
+    &__quantity {
+        margin-top: 60px;
+    }
+
+    &__input {
+        width: auto;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    &__updateIcon {   
+        i{
+            &:hover {
+                    color: #2BBAC0;
+                }               
+            }
+        }
+
+    &__deleteIcon{
+        i{
+            &:hover {
+                color: red;
+            }
+        }
+    }
+
+    &__price {
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 65px;
+    }
+}
+
+.button {
+    margin-top: 20px;
+    margin-left: 30px;
+
+    &--ayuda{
+        margin-top: 0;
+        margin-left: 0;
+        height: 30px;
+        width: 30px;
+    }
+
+    &--pago{
+        position: relative;
+        top: 100px;
+        background-color: lightgray;
+    }
+
+    &__shopping {
+        border: solid 3px;
+        background-color: #333333;
+        color: white;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    &__pay {
+        border: solid 3px;
+        background-color: #333333;
+        color: white;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 1330px;
+    }
+
+    &__SingUp{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        background: transparent;
+        color: black;
+        border: 2px solid steelblue;
+        border-radius: 3px;
+        width: 200px;
+        height: 50px;
+        margin-left: 27%; 
+        margin-top: 2%;
+
+        &:hover{
+            background-color:darkgrey;
+            transition-duration: 0.5s;
+            color: white;
+        }
+
+        &:focus{
+            background-color: silver;
+        }
+    }
+}
+/*Shopping car end*/

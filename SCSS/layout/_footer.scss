@@ -1,0 +1,92 @@
+/*Footer*/
+.footer{
+    display: flex;
+    align-items: center;  
+    background-color: #333333; 
+    margin-top: 3%;
+    color: white;
+
+    &--container{
+    display: flex;
+    }
+
+    &__logo{
+        width: 200px;
+        height: 120px;
+        padding: 5px;
+    }
+
+    &__list{
+        list-style: none;
+        margin-left: 5%;
+    }
+
+    &__title{
+        margin-left: 5px;
+        font-size: 20px;
+    }    
+
+    &__item{
+        padding: 5px;
+
+        i{
+            font-size: 20px;
+            color: white;
+            padding-right: 10px;
+        }
+    }
+
+    .nav{
+        &__list{
+            margin-left: 10%;
+            margin-bottom: 10%;
+        }
+    }
+
+    &__instagram {
+        i{
+            font-size: 40px;
+
+            &:hover{
+                color: black;
+            }
+        }
+    }
+
+    &__facebook {
+        i{
+            font-size: 40px;
+
+            &:hover{
+                color: black;
+            }
+        }
+    }
+
+    &__twitter {
+        i{
+            font-size: 40px;
+
+            &:hover{
+                color: black;
+            }
+        }
+    }
+
+    &--pago{
+        display: block;
+        margin-left: 215px;
+    }
+
+    &__pago{
+        width: 310px;
+        height: 40px;
+        margin-top: 10px;
+    } 
+
+    &__titleDerechos{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+/*Footer end*/

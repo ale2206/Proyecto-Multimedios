@@ -1,0 +1,28 @@
+/*Header*/
+.header {
+    display: flex;
+    align-items: center;  
+    background-color: #2BBAC0;    
+
+    &--container{
+        display: flex;
+        width: 50%; 
+        height: auto;
+
+        &__logo{
+            width: 250px;
+            height: auto;
+            padding: 10px;
+        }
+    }
+
+    &__raya{
+        background-color: black;
+        width: 98%;
+        height: 6px;
+        border-radius: 5px;
+        margin-left: 1%;
+        margin-top: 5px;    
+        color: #fff;
+    }
+}
