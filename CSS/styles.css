@@ -1143,11 +1143,17 @@ label.validation-error {
     margin-top: 20px;
     margin-left: 20px;
   }
+
+  .nav{
+    margin-left: 70px;
+  }
+
   .nav__list {
+    margin-left: 0px;
     display: grid;
     grid-template-columns: repeat(2, auto);
   }
-  .nav--menu .nav__list {
+  .navMenu .nav__list {
     display: grid;
     grid-template-columns: repeat(2, auto);
   }
