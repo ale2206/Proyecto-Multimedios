@@ -1146,11 +1146,11 @@ label.validation-error {
   }
   .nav__title {
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 200px;
   }
 
   .nav{
-    margin-left: 70px;
+    margin-left: 10px;
   }
 
   .nav__list {
