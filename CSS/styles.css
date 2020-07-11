@@ -955,7 +955,7 @@ tr:nth-child(even), table.list thead > tr {
   background-color: #dddddd;
 }
 
-input[type=text], input[type=number] {
+.input__text, input[type=number] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
