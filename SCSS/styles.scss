@@ -1,16 +1,16 @@
-@import '/SCSS/abstracts/variables';
-@import '/SCSS/base/reset';
-@import '/SCSS/base/typography';
-@import '/SCSS/components/contact';
-@import '/SCSS/components/especificProduct';
-@import '/SCSS/components/index';
-@import '/SCSS/components/Login';
-@import '/SCSS/components/pay';
-@import '/SCSS/components/register';
-@import '/SCSS/components/shoppingCar';
-@import '/SCSS/layout/footer';
-@import '/SCSS/layout/header';
-@import '/SCSS/layout/navigation';
+@import 'SCSS/abstracts/variables';
+@import 'SCSS/base/reset';
+@import 'SCSS/base/typography';
+@import 'SCSS/components/contact';
+@import 'SCSS/components/especificProduct';
+@import 'SCSS/components/index';
+@import 'SCSS/components/Login';
+@import 'SCSS/components/pay';
+@import 'SCSS/components/register';
+@import 'SCSS/components/shoppingCar';
+@import 'SCSS/layout/footer';
+@import 'SCSS/layout/header';
+@import 'SCSS/layout/navigation';
 
 /*Crud css*/
 body > table{
